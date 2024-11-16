@@ -9,7 +9,12 @@ import java.util.Locale;
 
 public class Service {
 
+    public enum Event {
+        PLAY, PAUSE, STOP
+    }
+
     public void indentSrtring(String s){
+
         System.out.println(s.indent(4));
     }
 
